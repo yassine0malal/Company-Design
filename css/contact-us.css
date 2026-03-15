@@ -101,6 +101,21 @@ iframe {
 textarea{
     text-align: start;
 }
+.submit{
+    border-radius: 8px;
+    padding: 20px;
+    border: none;
+    background-color: var(--second-color);
+    scale: 0.9;
+    transition: 0.3s all ease-in-out;
+}
+.submit:hover{
+    scale: 1;
+}
+.submit:active{
+    scale: 1.1;
+}
+
 @media screen and (max-width: 800px) {
     .infos {
         flex-direction: column;

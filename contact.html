@@ -58,21 +58,21 @@
                         <div class="name">
                             <div class="last">
                                 <label for="first-name">First Name</label>
-                                <input placeholder="Enter your first name" type="text" id="first-name"
+                                <input required placeholder="Enter your first name" type="text" id="first-name"
                                     name="first-name">
                             </div>
 
                             <div class="last">
                                 <label for="last">Last Name</label>
-                                <input placeholder="Enter your last name" type="text" id="last-name" name="last-name">
+                                <input required placeholder="Enter your last name" type="text" id="last-name" name="last-name">
                             </div>
                         </div>
 
 
                         <label for="email">Email</label>
-                        <input placeholder="you@yourcompany.com" type="email" id="email" name="email">
+                        <input required placeholder="you@yourcompany.com" type="email" id="email" name="email">
                         <label for="email">Tel</label>
-                        <input placeholder="+212 748389729" type="tel" id="email" name="email">
+                        <input required placeholder="+212 748389729" type="tel" id="email" name="email">
 
                         <label for="select">Select an option</label>
                         <select name="select" id="select">
@@ -84,8 +84,9 @@
                         <textarea placeholder="Leave your message here" name="message" id="message"></textarea>
                         <div class="roles">
                             <label for="accept">Accept &nbsp; <u>roles</u> &nbsp;&nbsp;</label>
-                            <input type="checkbox" name="" id="accept">
+                            <input required type="checkbox" name="" id="accept">
                         </div>
+                        <button class="submit">Send</button>
                     </form>
                     <div class="content" data-aos="flip-up" data-aos-duration="3000">
                         <h2>We'd love to hear from you</h2>
