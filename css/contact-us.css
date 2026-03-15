@@ -1,0 +1,112 @@
+.contact-us {
+
+    margin-top: 100px;
+}
+
+* {
+    letter-spacing: 1.2px;
+}
+
+.introduction {
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.introduction h2 {
+    font-size: 34px;
+}
+
+.introduction p {
+    margin-bottom: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+
+form input,
+form select,
+form textarea,
+form select option {
+    border: 2px #0002 solid;
+    padding: 20px 10px;
+    border-radius: 8px;
+    background: none;
+    width: 100%;
+}
+
+.roles input {
+    /* padding: ; */
+    width: 12px;
+    /* padding: 0; */
+}
+.roles{
+    font-size: 14px;
+
+}
+
+.infos {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+form .name .last {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+form .name {
+    gap: 23px;
+    display: flex;
+
+}
+
+label {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.roles {
+    /* gap: 3%; */
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+u {
+    color: var(--continue-btn);
+}
+
+iframe {
+    width: 100%;
+    border-radius: 8px;
+}
+.introduction{
+    background-color: var(--text-color);
+}
+textarea{
+    text-align: start;
+}
+@media screen and (max-width: 800px) {
+    .infos {
+        flex-direction: column;
+    }
+
+    iframe {
+        width: 100%;
+    }
+}

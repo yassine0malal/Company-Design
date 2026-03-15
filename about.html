@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- ------------Navbar Section---- -->
+        <header>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <a data-aos="flip-up" data-aos-duration="2000" href="index.html"><img src="./images/logo.png" alt=""></a>
+
+            <nav>
+                <ul>
+                    <li data-aos="fade-down" data-aos-duration="1500"><a href="index.html">Home</a></li>
+                    <li data-aos="fade-down" data-aos-duration="2000"><a href="services.html">Services</a></li>
+                    <li data-aos="fade-down" data-aos-duration="2500"><a href="gallery.html">Gallery</a></li>
+                    <li data-aos="fade-down" data-aos-duration="2800"><a href="about.html">About</a></li>
+                    <li data-aos="fade-down" data-aos-duration="3000"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button data-aos="fade-left" data-aos-duration="1500" class="login">Log in</button>
+        </header>
+
+        <!-- ------------Asidebar Section------------  -->
+        <aside id="asideBar">
+            <nav>
+                <a data-aos="fade-down" data-aos-duration="1500" href="index.html">Home</a>
+                <a data-aos="fade-down" data-aos-duration="2000" href="services.html">Services</a>
+                <a data-aos="fade-down" data-aos-duration="2500" href="gallery.html">Gallery</a>
+                <a data-aos="fade-down" data-aos-duration="2800" href="about.html">About</a>
+                <a data-aos="fade-down" data-aos-duration="3000" href="contact.html">Contact</a>
+            </nav>
+        </aside>
+
+
+
+        <section class="our-team">
+            <h2 data-aos="fade-right" data-aos-duration="2000">Our Team</h2>
+            <p data-aos="fade-left" data-aos-duration="2000">We strive to do everything so that you can comfortably and productively work in our space and create
+                amazing products and services
+            </p>
+
+            <div class="profiles">
+                <figure class="card" data-aos="flip-up" data-aos-duration="2400">
+                    <img src="./images/profile-1.png" alt="">
+                    <figcaption class="desc">
+                        <h4>Edward Gilmore</h4>
+                        <p>Founder and CEO</p>
+                        <div class="social">
+                            <img src="./images/footer/facebook.png" alt="">
+                            <img src="./images/footer/linkedin.png" alt="">
+                            <img src="./images/footer/github.png" alt="">
+                        </div>
+                    </figcaption>
+                </figure>
+
+                <figure class="card" data-aos="flip-up" data-aos-duration="2800">
+                    <img src="./images/woman.jpg" alt="">
+                    <figcaption class="desc">
+                        <h4>Lucy Kims</h4>
+                        <p>Founder and CEO</p>
+                        <div class="social">
+                            <img src="./images/footer/facebook.png" alt="">
+                            <img src="./images/footer/linkedin.png" alt="">
+                            <img src="./images/footer/github.png" alt="">
+                        </div>
+                    </figcaption>
+                </figure>
+
+                <figure class="card" data-aos="flip-up" data-aos-duration="3000">
+                    <img src="./images/profile-2.png" alt="">
+                    <figcaption class="desc">
+                        <h4>Edward Gilmore</h4>
+                        <p>Founder and CEO</p>
+                        <div class="social">
+                            <img src="./images/footer/facebook.png" alt="">
+                            <img src="./images/footer/linkedin.png" alt="">
+                            <img src="./images/footer/github.png" alt="">
+                        </div>
+                    </figcaption>
+                </figure>
+
+            </div>
+            <button><a style="text-decoration: none; color: var(--continue-btn);" href="contact.html">Contact Us
+                    ></a></button>
+        </section>
+        <!-- -------------Footer Section----------- -->
+        <footer>
+            <div class="images">
+                <img src="./images/footer/facebook.png" alt="facebook">
+                <img src="./images/footer/linkedin.png" alt="linkedin">
+                <img src="./images/footer/whatsapp.png" alt="whatsapp">
+                <img src="./images/footer/github.png" alt="github">
+                <img src="./images/footer/youtube.png" alt="youtube">
+            </div>
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="copyrights">
+                Copyrights &copy;2026 Designed by &nbsp; <span> Yassine MALAL </span>
+            </div>
+        </footer>
+    </div>
+    <script src="js/app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
